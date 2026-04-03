@@ -30,8 +30,8 @@
     </script>
     <style>
         .mobile-container {
-            max-width: 480px;
-            margin: 0 auto;
+            /* REVISI: max-width dan margin auto dihapus biar full 100% ngikutin ukuran Lynk.id */
+            width: 100%;
             background-color: #000000;
             min-height: 100vh;
             overflow-x: hidden;
@@ -117,9 +117,9 @@
         }
     </style>
 </head>
-<body class="bg-zinc-950 text-brand-100 antialiased">
+<body class="bg-zinc-950 text-brand-100 antialiased overflow-x-hidden w-full">
 
-    <main class="mobile-container relative border-x border-line shadow-2xl pb-12 pt-4">
+    <main class="mobile-container relative pb-12 pt-4">
 
         <section class="px-4 pt-2 pb-4">
             <div class="relative w-full mb-3">
